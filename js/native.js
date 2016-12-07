@@ -67,3 +67,6 @@ function delCookie(name) { //删除cookie
     var cval = getCookie(name);
     if (cval != null) document.cookie = name + "=" + cval + "; path=/;expires=" + exp.toGMTString();
 }
+
+
+
