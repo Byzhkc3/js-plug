@@ -3,20 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <meta meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!-- uc强制全屏 -->
     <meta name="full-screen" content="yes">
-    <!-- 关闭uc浏览器字体放大功能 -->  
+    <!-- 关闭uc浏览器字体放大功能 -->
     <meta name="wap-font-scale" content="no">
     <!-- 强制显示图片 -->
-    <meta name="imagemode" content="force"/>
+    <meta name="imagemode" content="force" />
     <!-- 竖屏 -->
     <meta name="screen-orientation" content="portrait">
     <!-- <meta name="screen-orientation" content="portrait|landscape"> -->
     <!-- 缩放不显示滚动条 -->
     <!-- <meta name="viewport" content="uc-fitscreen=no|yes"/> -->
     <!-- uc/ -->
-    
     <!-- x5 -->
     <!-- 设置屏幕方向 -->
     <meta name="x5-orientation" content="portrait" />
@@ -27,8 +26,6 @@
     <!-- 屏幕模式 -->
     <meta name="x5-page-mode" content="app" />
     <!-- x5 -->
-
-
     <title>演示文档</title>
     <link rel="stylesheet" href="css/zhkc.css">
     <link rel="stylesheet" type="text/css" href="./css/font/iconfont.css">
@@ -36,21 +33,46 @@
     .tab {
         /*background:red;*/
     }
+    
+    .m-top-bar {
+        background-color: #333;
+    }
     </style>
 </head>
 
 <body class="zhk">
-    <div class="row-sm row inside">
-        <div class="col-1">1</div>
-        <div class="col-2">2</div>
-        <div class="col-5">2</div>
+    <!-- 顶部工具 -->
+    <div class="m-top-bar">
+        <div class="m-top-left">
+            <a href="">
+                <i class="iconfont icon-prev"></i>
+                <span>返回</span>
+            </a>
+        </div>
+        <p class="m-top-title">
+            首页
+        </p>
+        <div class="m-top-right">
+            <a href="">
+                <i class="iconfont icon-search"></i>
+            </a>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-12">2</div>
+    <!-- 内容区域 -->
+    <div class="m-content">
+        <div class="row-sm row inside">
+            <div class="col-1">测试页面</div>
+            <div class="col-1">栅格1</div>
+            <div class="col-1">2</div>
+        </div>
+        <div class="row">
+            <div class="col-12">2</div>
+        </div>
+        <div class="row">
+            <div class="col-12"><a href="">dkasdkasjdas</a></div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-12"><a href="">dkasdkasjdas</a></div>
-    </div>
+    <!-- tabs -->
     <div class="tabs">
         <div class="tab tab-5">
             <a href="javascript:;">
